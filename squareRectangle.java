@@ -3,9 +3,9 @@ import java.util.*;
 public class squareRectangle{
     public static void main(String args[]){
         try (Scanner sc = new Scanner(System.in)) {
-            System.out.println("Enter the number of Rows : ");
+            System.out.println("Enter the number of Rows : ");  //kitni lines hogi 
             int row = sc.nextInt();
-            System.out.println("Enter the number of columns : ");
+            System.out.println("Enter the number of columns : "); // har line me kitne stars print hoge
             int col = sc.nextInt();
 
             for(int i=1; i<=row; i++){
