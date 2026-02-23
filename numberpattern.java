@@ -1,24 +1,18 @@
-import java.util.*;
 
-public class numberSquarePattern {
-    public static void main(String args[]){
+import java.util.Scanner;
+
+public class numberpattern {
+    public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
             System.out.print("Enter the number : ");
             int num = sc.nextInt();
 
             for(int i=1; i<=num; i++){
                 for(int j=1; j<=num; j++){
-                    System.out.print(j + " ");
+                    System.out.print(i+" ");
                 }
                 System.out.println();
             }
         }
     }
 }
-
-
-// 1 2 3 4 5 
-// 1 2 3 4 5
-// 1 2 3 4 5
-// 1 2 3 4 5
-// 1 2 3 4 5

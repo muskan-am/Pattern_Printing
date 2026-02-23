@@ -1,14 +1,14 @@
 import java.util.*;
 
-public class numberSquarePattern {
-    public static void main(String args[]){
+public class star_triangle {
+    public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
             System.out.print("Enter the number : ");
             int num = sc.nextInt();
 
             for(int i=1; i<=num; i++){
-                for(int j=1; j<=num; j++){
-                    System.out.print(j + " ");
+                for(int j=1; j<=i; j++){
+                    System.out.print("*"+" ");
                 }
                 System.out.println();
             }
@@ -17,8 +17,4 @@ public class numberSquarePattern {
 }
 
 
-// 1 2 3 4 5 
-// 1 2 3 4 5
-// 1 2 3 4 5
-// 1 2 3 4 5
-// 1 2 3 4 5
+
